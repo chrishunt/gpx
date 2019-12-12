@@ -3,7 +3,7 @@ module GPX
     attr_accessor :tracks,
                   :routes, :waypoints, :bounds, :lowest_point, :highest_point, :duration, :ns, :time, :name, :version, :creator, :description, :moving_duration
 
-    DEFAULT_CREATOR = "GPX RubyGem #{GPX::VERSION} -- http://dougfales.github.io/gpx/".freeze
+    DEFAULT_CREATOR = "mytracks.co -- https://www.mytracks.co".freeze
 
     # This initializer can be used to create a new GPXFile from an existing
     # file or to create a new GPXFile instance with no data (so that you can
